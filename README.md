@@ -90,6 +90,8 @@ For running mlflow files you need various environment variables set on the clien
 > [ OK ] Successfully installed environment variables into your .bashrc!
 
 The script installs this variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, MLFLOW_S3_ENDPOINT_URL, MLFLOW_TRACKING_URI. All of them are needed to use mlflow from the client-side.
+> $ nano ~/.bashrc
+ 
 
 6. Test the pipeline with below command with conda. If you dont have conda installed run with `--no-conda`
 
