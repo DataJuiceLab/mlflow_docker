@@ -96,9 +96,9 @@ The script installs this variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, ML
 6. Test the pipeline with below command with conda. If you dont have conda installed run with `--no-conda`
 
 ```shell
-mlflow run git@github.com:databricks/mlflow-example.git -P alpha=0.5
+mlflow run git@github.com:databricks/mlflow-example.git -P alpha=0.5 #here we should have conda env
 # or
-python3 ./quickstart/mlflow_tracking.py
+python3 ./quickstart/mlflow_tracking.py #for metrics
 ```
 
 7. *(Optional)* If you are constantly switching your environment you can use this environment variable syntax
