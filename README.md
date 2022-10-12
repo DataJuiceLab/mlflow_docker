@@ -19,7 +19,7 @@ The only requirement is docker installed on your system and we are going to use 
 
 2. Run the Infrastructure by this one line:
 ```shell
-$ docker-compose up -d
+$ docker compose up -d
 Creating network "mlflow-basis_A" with driver "bridge"
 Creating mlflow_db      ... done
 Creating tracker_mlflow ... done
