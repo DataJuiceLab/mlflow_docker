@@ -84,6 +84,7 @@ s3Client.make_bucket('mlflow')
 
 For running mlflow files you need various environment variables set on the client side. To generate them user the convienience script `./bashrc_install.sh`, which installs it on your system or `./bashrc_generate.sh`, which just displays the config to copy & paste.
 
+> $ chmod u+x ./bashrc_install.sh
 > $ ./bashrc_install.sh   
 > [ OK ] Successfully installed environment variables into your .bashrc!
 
