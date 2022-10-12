@@ -84,14 +84,13 @@ s3Client.make_bucket('mlflow')
 
 For running mlflow files you need various environment variables set on the client side. To generate them user the convienience script `./bashrc_install.sh`, which installs it on your system or `./bashrc_generate.sh`, which just displays the config to copy & paste.
 
-> $ chmod u+x ./bashrc_install.sh
- 
+> $ chmod u+x ./bashrc_install.sh  
 > $ ./bashrc_install.sh   
 > [ OK ] Successfully installed environment variables into your .bashrc!
 
 The script installs this variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, MLFLOW_S3_ENDPOINT_URL, MLFLOW_TRACKING_URI. All of them are needed to use mlflow from the client-side.
-> $ nano ~/.bashrc
- 
+> $ nano ~/.bashrc 
+> $ pip3 install --upgrade requests 
 
 6. Test the pipeline with below command with conda. If you dont have conda installed run with `--no-conda`
 
