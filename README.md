@@ -89,7 +89,7 @@ For running mlflow files you need various environment variables set on the clien
 > [ OK ] Successfully installed environment variables into your .bashrc!
 
 The script installs this variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, MLFLOW_S3_ENDPOINT_URL, MLFLOW_TRACKING_URI. All of them are needed to use mlflow from the client-side.
-> $ nano ~/.bashrc 
+> $ nano ~/.bashrc   
 > $ pip3 install --upgrade requests 
 
 6. Test the pipeline with below command with conda. If you dont have conda installed run with `--no-conda`
@@ -97,7 +97,7 @@ The script installs this variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, ML
 ```shell
 mlflow run git@github.com:databricks/mlflow-example.git -P alpha=0.5
 # or
-python ./quickstart/mlflow_tracking.py
+python3 ./quickstart/mlflow_tracking.py
 ```
 
 7. *(Optional)* If you are constantly switching your environment you can use this environment variable syntax
