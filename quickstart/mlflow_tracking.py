@@ -2,6 +2,7 @@ import os
 from random import random, randint
 
 import mlflow
+from mlflow import log_metric, log_param, log_artifacts
 
 if __name__ == "__main__":
     with mlflow.start_run() as run:
